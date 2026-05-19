@@ -22,6 +22,9 @@ SCR_CameraManager SCR_CameraManager1 : "{33F9FD881E3700CC}Prefabs/World/Game/SCR
 }
 TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
  coords 500 500 100
+ "Internal variant transition" 0
+ "Internal subvariant 0" 0
+ "Internal subvariant 1" 0
 }
 BasePreloadManager PreloadManager1 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 3.855 2.66 2.993
@@ -37,6 +40,17 @@ GenericEntity : "{7699E66077068406}Prefabs/World/Game/ForestSyncManager.et" {
 }
 SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
  coords 3.176 3.471 -0.109
+}
+$grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ BTR70_FIA1 {
+  coords 3523.93 1.949 3998.141
+ }
+ BTR70_FIA2 {
+  coords 5085.071 4.056 3873.525
+ }
+}
+Vehicle BTR3 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 4554.662 20.296 4679.64
 }
 SoundWorld : "{FBE5065D0273E9E1}Prefabs/Sounds/SoundWorld/SoundWorld_Base.et" {
  coords 1.301 2.779 2.79
