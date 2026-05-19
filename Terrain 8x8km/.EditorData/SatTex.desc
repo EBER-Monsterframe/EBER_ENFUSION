@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "F:/Eber Stuff/BohemiaInteractive/Enfusion/Reforger/Mappp/gtt_export/gtt_satmap.png"
+ sRGBOutput 1
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}

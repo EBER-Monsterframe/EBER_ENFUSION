@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{8C5663D0C2A61A7F}Rubikon/Terrain 8x8km/Terrain 8x8km.terr"
+ Configurations {
+  TerrainResourceClass PC {
+   BlocksPerTile 4
+   TerrainSurfaceBits 8
+   TilesCount 1024
+   LayerSource SourceTextureClass "{6966659DBC1E2B4A}" : "{A59F335F96C4442F}Configs/System/ResourceTypes/PC/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EDDB4}" : "{835E083C88C3D9C3}Configs/System/ResourceTypes/PC/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EDD3A}" : "{CBA1266690ABD336}Configs/System/ResourceTypes/PC/TextureTerrainSuper.conf" {
+   }
+  }
+  TerrainResourceClass XBOX_ONE : PC {
+   LayerSource SourceTextureClass "{6966659DBC1EDEAC}" : "{9843D16A29542D5A}Configs/System/ResourceTypes/XBOX_ONE/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EDE3F}" : "{6C5EFFA712A52100}Configs/System/ResourceTypes/XBOX_ONE/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EDFE6}" : "{F67DC4532F3BBA43}Configs/System/ResourceTypes/XBOX_ONE/TextureTerrainSuper.conf" {
+   }
+  }
+  TerrainResourceClass XBOX_SERIES : PC {
+   LayerSource SourceTextureClass "{6966659DBC1EDFA7}" : "{2071F9D39E062268}Configs/System/ResourceTypes/XBOX_SERIES/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EDF5B}" : "{90ADE65A903F3042}Configs/System/ResourceTypes/XBOX_SERIES/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EDF14}" : "{4E4FECEA9869B571}Configs/System/ResourceTypes/XBOX_SERIES/TextureTerrainSuper.conf" {
+   }
+  }
+  TerrainResourceClass PS4 : PC {
+   LayerSource SourceTextureClass "{6966659DBC1EC0C5}" : "{4C431036F57D4D58}Configs/System/ResourceTypes/PS4/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EC1A7}" : "{6F6E5A1432381FD2}Configs/System/ResourceTypes/PS4/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EC174}" : "{227D050FF312DA41}Configs/System/ResourceTypes/PS4/TextureTerrainSuper.conf" {
+   }
+  }
+  TerrainResourceClass PS5 : PC {
+   LayerSource SourceTextureClass "{6966659DBC1EC14D}" : "{BA3AFE83BEFD6794}Configs/System/ResourceTypes/PS5/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EC2D4}" : "{5CEA2418C9F889F8}Configs/System/ResourceTypes/PS5/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EC2AF}" : "{D404EBBAB892F08D}Configs/System/ResourceTypes/PS5/TextureTerrainSuper.conf" {
+   }
+  }
+  TerrainResourceClass HEADLESS : PC {
+   LayerSource SourceTextureClass "{6966659DBC1EC251}" : "{3B38AD285230D19F}Configs/System/ResourceTypes/HEADLESS/TextureTerrainLayer.conf" {
+   }
+   NormalSource SourceTextureClass "{6966659DBC1EC20D}" : "{EAB38BDFD096C0A6}Configs/System/ResourceTypes/HEADLESS/TextureTerrainNormal.conf" {
+   }
+   SuperSource SourceTextureClass "{6966659DBC1EC3C9}" : "{5506B811545F4686}Configs/System/ResourceTypes/HEADLESS/TextureTerrainSuper.conf" {
+   }
+  }
+ }
+}
