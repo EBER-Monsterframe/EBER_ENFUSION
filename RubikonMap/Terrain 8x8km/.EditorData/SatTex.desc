@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/sasch/Documents/My Games/ArmaReforgerWorkbench/addons/ProjektRubicon/mapPlaning/satMapPlaning.png"
+ sRGBOutput 1
+ RenderRoads 0
+ Interpolation bicubic
+ RoadsAA "8x"
+}

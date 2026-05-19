@@ -1,0 +1,8 @@
+GameProject {
+ ID "ProjektRubicon"
+ GUID "6966EB16BD5C0030"
+ TITLE "ProjektRubicon"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
