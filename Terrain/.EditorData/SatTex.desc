@@ -1,7 +1,0 @@
-SatGenDescClass {
- FileName "C:/Users/sasch/Desktop/gtt_export/gtt_satmapEdit.png"
- sRGBOutput 1
- RenderRoads 1
- Interpolation bilinear
- RoadsAA "8x"
-}
