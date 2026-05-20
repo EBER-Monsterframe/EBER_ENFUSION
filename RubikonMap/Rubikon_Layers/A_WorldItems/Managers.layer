@@ -93,6 +93,12 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR17 {
   coords 2783.15 25.222 3796.51
  }
+ BTR18 {
+  coords 5283.248 4.375 4035.28
+ }
+ BTR19 {
+  coords 3735.634 3.905 2816.955
+ }
 }
 SoundWorld : "{FBE5065D0273E9E1}Prefabs/Sounds/SoundWorld/SoundWorld_Base.et" {
  coords 1.301 2.779 2.79
