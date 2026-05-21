@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "696B01C04F5F7B2D"
+ components {
+  MeshObject "{696B01C00591181E}" {
+   Object "{DAC76206EB167EE8}EBER_Ressource/Deko/RubixCube/RubixCube.xob"
+  }
+  RigidBody "{696B01C07445CA08}" {
+   Active Active
+   Mass 0.2
+   ModelGeometry 1
+  }
+ }
+ coords 4629.439 0.709 2923.49
+ scale 0.1
+}

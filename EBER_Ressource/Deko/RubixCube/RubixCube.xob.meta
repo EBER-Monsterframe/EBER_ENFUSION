@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{DAC76206EB167EE8}EBER_Ressource/Deko/RubixCube/RubixCube.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{696B01C0D2735881}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{093106248B25BDC3}EBER_Ressource/Deko/RubixCube/Data/Material.emat"
+    }
+    MaterialAssignClass "{696B01C0D27358B8}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{17CDBB78EE8AEA84}EBER_Ressource/Deko/RubixCube/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Rubix {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Rubix {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{696B01C0D2757475}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{696B01C0D275728F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{696B01C0D27572D2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{696B01C0D27572FA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{696B01C0D2757218}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{696B01C0D2757220}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

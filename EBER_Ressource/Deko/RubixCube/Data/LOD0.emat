@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{DD719986396E21B3}EBER_Ressource/Deko/RubixCube/Data/Material_BCR.edds"
+ NMOMap "{E5A92214E019732D}EBER_Ressource/Deko/RubixCube/Data/Material_NMO.edds"
+}

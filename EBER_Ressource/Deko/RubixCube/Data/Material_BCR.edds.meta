@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{173776E58D742966}EBER_Prefab/Deko/RubixCube/Data/Material_BCR.edds"
+ Name "{DD719986396E21B3}EBER_Ressource/Deko/RubixCube/Data/Material_BCR.edds"
  Configurations {
   PNGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
   }
