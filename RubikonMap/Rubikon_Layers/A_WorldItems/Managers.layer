@@ -26,20 +26,37 @@ TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeath
  "Internal subvariant 0" 0
  "Internal subvariant 1" 0
 }
-GenericEntity {
- components {
-  MeshObject "{696B01DA592CC999}" {
-   Object "{0BA3DAE8DBC8C9AC}EBER_Prefab/Deko/RubixCube/RubixCube.xob"
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{696B01DA592CC999}" {
+    Object "{0BA3DAE8DBC8C9AC}EBER_Prefab/Deko/RubixCube/RubixCube.xob"
+   }
+   RigidBody "{696B01D9D0B4DBFB}" {
+    Active Active
+    LinearSleepingThreashold 0.4
+    AngularSleepingThreashold 0.5
+    ResponseIndex "Normal"
+    ModelGeometry 1
+   }
   }
-  RigidBody "{696B01D9D0B4DBFB}" {
-   Active Active
-   LinearSleepingThreashold 0.4
-   AngularSleepingThreashold 0.5
-   ResponseIndex "Normal"
-   ModelGeometry 1
-  }
+  coords 4562.485 5.26 2910.159
  }
- coords 4562.485 5.26 2910.159
+ {
+  components {
+   MeshObject "{696B77A6F8C84652}" {
+    Object "{8D4553BE2A16FC61}EBER_Ressource/Steine/FlatRock1/FlatRock1.xob"
+   }
+   RigidBody "{696B77A6FD5063DE}" {
+    Layers 0x80 0
+    Active Active
+    Mass 800
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 4629.996 0.616 2933.832
+ }
 }
 BasePreloadManager PreloadManager1 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 3.855 2.66 2.993
@@ -122,9 +139,6 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  }
  BTR22 {
   coords 5295.223 20.994 4250.638
- }
- BTR23 {
-  coords 4559.073 3.997 2914.405
  }
  BTR24 {
   coords 4627.568 0.279 2921.428
