@@ -44,18 +44,68 @@ $grp GenericEntity {
  }
  {
   components {
-   MeshObject "{696B77A6F8C84652}" {
-    Object "{8D4553BE2A16FC61}EBER_Ressource/Steine/FlatRock1/FlatRock1.xob"
-   }
-   RigidBody "{696B77A6FD5063DE}" {
-    Layers 0x80 0
-    Active Active
-    Mass 800
-    ModelGeometry 1
-    Static 1
+   MeshObject "{696C767693E42EC8}" {
+    Object "{188B2D089F8C06AD}EBER_Ressource/Steine/FlatRock1/Tex1/FlatRock1.xob"
    }
   }
-  coords 4629.996 0.616 2933.832
+  coords 4622.753 1.002 2938.813
+  angles 7.436 0.043 4.366
+  scale 0.706
+ }
+ {
+  components {
+   MeshObject "{696C764274A6FA49}" {
+    Object "{F1F6D985C28C22B9}EBER_Ressource/Steine/FlatRock1/Tex1_wet/FlatRock1_wet.xob"
+   }
+  }
+  coords 4624.559 0.95 2939.149
+  scale 0.78
+ }
+ {
+  components {
+   MeshObject "{696C765C3A637E8C}" {
+    Object "{8A1A6754BD5F04B8}EBER_Ressource/Steine/FlatRock1/Tex2/FlatRock2.xob"
+   }
+  }
+  coords 4622.816 0.961 2936.333
+  scale 0.643
+ }
+ {
+  components {
+   MeshObject "{696C7657AAB14F62}" {
+    Object "{7D741E0668EF3A6F}EBER_Ressource/Steine/FlatRock1/Tex2_wet/FlatRock1.xob"
+   }
+  }
+  coords 4621.916 0.996 2936.301
+  scale 0.52
+ }
+ {
+  components {
+   MeshObject "{696E7B842B737A86}" {
+    Object "{C371438F068C3A67}EBER_Ressource/Strukturen/Aquatisch/Kanal1/Kanal1.xob"
+   }
+  }
+  coords 3571.787 -2.101 4768.627
+  angles 0 110.324 0
+  scale 15.56
+ }
+ {
+  components {
+   MeshObject "{696E7B8450C70B7E}" {
+    Object "{188B2D089F8C06AD}EBER_Ressource/Steine/FlatRock1/Tex1/FlatRock1.xob"
+   }
+  }
+  coords 3564.549 3.837 4777.168
+  scale 3.38
+ }
+ {
+  components {
+   MeshObject "{696E7B8458739646}" {
+    Object "{F1F6D985C28C22B9}EBER_Ressource/Steine/FlatRock1/Tex1_wet/FlatRock1_wet.xob"
+   }
+  }
+  coords 3554.842 3.221 4788.006
+  scale 9.08
  }
 }
 BasePreloadManager PreloadManager1 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
@@ -143,6 +193,15 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  BTR24 {
   coords 4627.568 0.279 2921.428
  }
+ BTR23 {
+  coords 4090.321 2.221 2552.886
+ }
+ BTR25 {
+  coords 3556.893 3.213 4801.241
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{CBFCF66CA5280B0E}PrefabLibrary/DefaultLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_slope.et" {
+ coords 4627.183 -1.013 2933.552
 }
 SoundWorld : "{FBE5065D0273E9E1}Prefabs/Sounds/SoundWorld/SoundWorld_Base.et" {
  coords 1.301 2.779 2.79
