@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0BD4E058B8E00821}EBER_Ressource/Steine/FlatRock1/Data/Material_BCR.edds"
+ Name "{EC438E76B129F689}EBER_Ressource/Steine/FlatRock1/Tex2_wet/Data/Tex2_wet_BCR.edds"
  Configurations {
   PNGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
   }
