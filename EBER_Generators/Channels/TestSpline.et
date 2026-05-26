@@ -1,0 +1,27 @@
+SplineShapeEntity {
+ ID "69729A2818B4BA66"
+ components {
+  SlotManagerComponent "{69729A28886D94BD}" {
+   Slots {
+    RegisteringComponentSlotInfo Test {
+     Prefab "{10489008629596D5}EBER_Prefab/Deko/RubixCube.et"
+    }
+   }
+  }
+ }
+ coords 4510.852 6.21 2619.84
+ Points {
+  ShapePoint "{69729A2B5FFCE1A0}" {
+   Position 0 -0 0
+  }
+  ShapePoint "{69729A2B5FFCECB9}" {
+   Position 5 0.154 0
+  }
+  ShapePoint "{69729A2B40A21534}" {
+   Position 2.4 -0 -21.003
+  }
+  ShapePoint "{69729A2B4197B10F}" {
+   Position -14.911 0 -15.511
+  }
+ }
+}

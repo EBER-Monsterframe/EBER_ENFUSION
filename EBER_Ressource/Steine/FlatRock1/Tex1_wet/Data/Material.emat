@@ -1,5 +1,0 @@
-MatPBRBasic {
- BCRMap "{2A9717F6A5A67BB3}EBER_Ressource/Steine/FlatRock1/Tex1_wet/Data/Tex1_wet_BCR.edds"
- NMOMap "{124FAC647CD1292D}EBER_Ressource/Steine/FlatRock1/Tex1_wet/Data/Tex1_wet_NMO.edds"
- HeightMap "{90C5807EAFB3F799}EBER_Ressource/Steine/FlatRock1/Tex1_wet/Data/Tex1_wet_H.edds"
-}

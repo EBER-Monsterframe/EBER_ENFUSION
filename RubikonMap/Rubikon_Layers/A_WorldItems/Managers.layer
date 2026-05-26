@@ -22,63 +22,10 @@ SCR_CameraManager SCR_CameraManager1 : "{33F9FD881E3700CC}Prefabs/World/Game/SCR
 }
 TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
  coords 500 500 100
+ "Initial Day Time" 13.427
  "Internal variant transition" 0
  "Internal subvariant 0" 0
  "Internal subvariant 1" 0
-}
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{696B01DA592CC999}" {
-    Object "{0BA3DAE8DBC8C9AC}EBER_Prefab/Deko/RubixCube/RubixCube.xob"
-   }
-   RigidBody "{696B01D9D0B4DBFB}" {
-    Active Active
-    LinearSleepingThreashold 0.4
-    AngularSleepingThreashold 0.5
-    ResponseIndex "Normal"
-    ModelGeometry 1
-   }
-  }
-  coords 4562.485 5.26 2910.159
- }
- {
-  components {
-   MeshObject "{696C767693E42EC8}" {
-    Object "{188B2D089F8C06AD}EBER_Ressource/Steine/FlatRock1/Tex1/FlatRock1.xob"
-   }
-  }
-  coords 4622.753 1.002 2938.813
-  angles 7.436 0.043 4.366
-  scale 0.706
- }
- {
-  components {
-   MeshObject "{696C764274A6FA49}" {
-    Object "{F1F6D985C28C22B9}EBER_Ressource/Steine/FlatRock1/Tex1_wet/FlatRock1_wet.xob"
-   }
-  }
-  coords 4624.559 0.95 2939.149
-  scale 0.78
- }
- {
-  components {
-   MeshObject "{696C765C3A637E8C}" {
-    Object "{8A1A6754BD5F04B8}EBER_Ressource/Steine/FlatRock1/Tex2/FlatRock2.xob"
-   }
-  }
-  coords 4622.816 0.961 2936.333
-  scale 0.643
- }
- {
-  components {
-   MeshObject "{696C7657AAB14F62}" {
-    Object "{7D741E0668EF3A6F}EBER_Ressource/Steine/FlatRock1/Tex2_wet/FlatRock1.xob"
-   }
-  }
-  coords 4621.916 0.996 2936.301
-  scale 0.52
- }
 }
 BasePreloadManager PreloadManager1 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
  coords 3.855 2.66 2.993
@@ -94,83 +41,6 @@ GenericEntity : "{7699E66077068406}Prefabs/World/Game/ForestSyncManager.et" {
 }
 SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
  coords 3.176 3.471 -0.109
-}
-$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- BTR1 {
-  coords 2980.711 0.225 4307.232
- }
- BTR2 {
-  coords 2979.93 10.425 4618.24
- }
- BTR3 {
-  coords 3559.838 3.306 4473.021
- }
- BTR4 {
-  coords 3200.648 4.007 3278.413
- }
- BTR5 {
-  coords 2841.658 28.382 3203.934
- }
- BTR6 {
-  coords 2869.202 21.468 3145.798
- }
- BTR7 {
-  coords 2673.751 2.744 3927.258
- }
- BTR8 {
-  coords 2654.544 8.705 3920.58
- }
- BTR9 {
-  coords 2365.969 2.513 2683.878
- }
- BTR10 {
-  coords 2313.688 6.621 2740.152
- }
- BTR11 {
-  coords 2424.344 14.379 3024.823
- }
- BTR12 {
-  coords 2216.68 54.379 3154.323
- }
- BTR13 {
-  coords 2729.99 3.985 3542.072
- }
- BTR14 {
-  coords 3016.677 0.556 3987.32
- }
- BTR15 {
-  coords 2391.737 48.107 3779.004
- }
- BTR16 {
-  coords 2692.774 10.977 3827.456
- }
- BTR17 {
-  coords 2783.15 25.222 3796.51
- }
- BTR18 {
-  coords 5283.248 4.375 4035.28
- }
- BTR19 {
-  coords 3735.634 3.905 2816.955
- }
- BTR20 {
-  coords 2171.463 2.132 5155.976
- }
- BTR21 {
-  coords 3078.707 0 5038.974
- }
- BTR22 {
-  coords 5295.223 20.994 4250.638
- }
- BTR24 {
-  coords 4627.568 0.279 2921.428
- }
- BTR23 {
-  coords 4090.321 2.221 2552.886
- }
-}
-SCR_IndestructibleEnvironmentalEntity : "{CBFCF66CA5280B0E}PrefabLibrary/DefaultLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_slope.et" {
- coords 4627.183 -1.013 2933.552
 }
 SoundWorld : "{FBE5065D0273E9E1}Prefabs/Sounds/SoundWorld/SoundWorld_Base.et" {
  coords 1.301 2.779 2.79
