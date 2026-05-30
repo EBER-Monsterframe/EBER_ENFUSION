@@ -1,0 +1,23 @@
+GenericEntity : "{F1793FE006FDF888}Prefabs/Structures/BuildingParts/Doors/Door_Base.et" {
+ ID "627CE52CCB2692FE"
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   DoorWidthIsXYZ Z
+   AnimationCurveType EaseIn
+   AngleRange -105
+  }
+  MeshObject "{309366462BDAFB24}" {
+   Object "{0DA2D7B3CEE6319F}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Kanal1_waterV1_hatchet01_10m.xob"
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   ActionContexts {
+    UserActionContext "{50888D37F529F720}" {
+     Position PointInfo "{50888D37F0EB77E0}" {
+      Offset -1.45 0.7661 0
+     }
+     Radius 4.32
+    }
+   }
+  }
+ }
+}

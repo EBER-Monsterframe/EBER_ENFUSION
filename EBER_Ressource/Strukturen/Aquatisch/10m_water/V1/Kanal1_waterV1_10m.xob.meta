@@ -1,0 +1,474 @@
+MetaFileClass {
+ Name "{972C67A77449026D}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Kanal1_waterV1_10m.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{697901FCF6B8C618}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{D0216761345C82AE}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "BaseLOD0_clean.008" {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UBX_Base.352" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.353" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.354" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.355" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.356" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.357" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.358" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.359" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.360" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.361" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.362" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.363" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.364" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.365" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.366" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.367" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.368" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.369" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.370" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.371" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.372" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.373" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.374" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.375" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.376" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.377" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.378" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.379" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.380" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.381" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.382" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.383" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_Base.384" {
+     LayerPreset "Ladder"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.275" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.276" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.277" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.278" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.279" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.280" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.281" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.282" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.283" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.284" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.285" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.286" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.287" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.288" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.289" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.290" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.291" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.292" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.293" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.294" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UCX_Base.295" {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1780FBB7FA2F25FC}Common/Materials/Game/asphalt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{697901FCF641A76A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{697901FCF641A7D6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{697901FCF641A63B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{697901FCF641A61F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{697901FCF641A645}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{697901FCF641A65B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

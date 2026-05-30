@@ -1,0 +1,21 @@
+GenericEntity : "{F1793FE006FDF888}Prefabs/Structures/BuildingParts/Doors/Door_Base.et" {
+ ID "627CE52CCB2692FE"
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   AngleRange -100
+  }
+  MeshObject "{309366462BDAFB24}" {
+   Object "{7DAD28147D72DEF3}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Kanal1_waterV1_door01_10m.xob"
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   ActionContexts {
+    UserActionContext "{50888D37F529F720}" {
+     Position PointInfo "{50888D37F0EB77E0}" {
+      Offset 0 1.0628 1.1973
+     }
+     Radius 3.01
+    }
+   }
+  }
+ }
+}

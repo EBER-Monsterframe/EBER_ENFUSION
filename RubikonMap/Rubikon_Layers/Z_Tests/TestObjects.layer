@@ -95,6 +95,78 @@ $grp GenericEntity {
   }
   coords 4393.264 -0.979 2565.003
  }
+ {
+  components {
+   MeshObject "{697AD484B7CBA569}" {
+    Object "{C371438F068C3A67}EBER_Ressource/Strukturen/Aquatisch/10m_base/Kanal1.xob"
+   }
+  }
+  coords 4393.264 -0.985 2655.003
+ }
+}
+PolylineShapeEntity {
+ coords 4449.296 4.177 2635.481
+ Points {
+  ShapePoint "{697AD4852637108A}" {
+   Position 0 0 0
+  }
+  ShapePoint "{697AD4852949F583}" {
+   Position -0.001 0.001 -0.043
+  }
+  ShapePoint "{697AD485263718F5}" {
+   Position 5 -0.006 0
+  }
+  ShapePoint "{697AD48527A68C13}" {
+   Position -0.103 -0.077 14.733
+  }
+  ShapePoint "{697AD4852897C949}" {
+   Position -7.454 0.006 10.174
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  PrefabGeneratorEntity : "{B5B681ECEC350BC3}Prefabs/WEGenerators/PG_Vegetation_CorylusBushline.et" {
+   Flags 0x100003 0
+   coords 0 0 0
+   m_iSeed 237
+   m_fSplineSafetyDistanceRatio 0.67
+   m_fDistance 5.9
+   {
+    $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+     {
+      coords -2.127 -0.077 10.019
+      angles 358.632 -19.103 0.731
+      scale 0.768
+     }
+     {
+      coords -3.704 -0.021 16.539
+      angles 358.263 -121.804 359.33
+      scale 0.997
+     }
+    }
+    $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+     {
+      coords 1.337 0.029 -1.269
+      angles 1.415 -19.103 358.465
+      scale 1.092
+     }
+     {
+      coords 5.719 -0.105 6.493
+      angles 1.253 -19.103 0.967
+      scale 0.91
+     }
+     {
+      coords -5.34 -0.027 7.983
+      angles 359.032 -121.804 0.099
+      scale 0.782
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity {
+ coords 4375.46 0 2573.295
 }
 SplineShapeEntity TestSpline {
  coords 4512.126 6.608 2618.774
@@ -1113,4 +1185,33 @@ SplineShapeEntity TestSpline {
    }
   }
  }
+}
+GenericEntity : "{3644AAEEA021AF13}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_hatchet01.et" {
+ coords 4381.366 4.977 2571.458
+}
+GenericEntity : "{81A540D335ED5E2A}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_door01.et" {
+ coords 4379.51 5.087 2564.082
+}
+GenericEntity : "{8CB7F971CCBAB365}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_ladder01.et" {
+ components {
+  ActionsManagerComponent "{5916A63C9331DAB0}" {
+   ActionContexts {
+    UserActionContext "{5916A63C9D2ABA4A}" {
+     Position PointInfo "{5916A63C9B51DDAE}" {
+      Offset 0 0.8161 0.1001
+     }
+     Radius 0.8
+     Omnidirectional 0
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5916A63C9CED0D8A}" {
+     LineOfSightCheck 1
+    }
+   }
+  }
+ }
+ coords 4380.062 -0.014 2568.679
+}
+SCR_DestructibleBuildingEntity : "{9B267A3B8A032E50}EBER_Prefab/Strukturen/Aquatisch/KanalmauerV1/10m/ChanelwallV1_waterV1_10m.et" {
+ coords 4393.264 -0.291 2645.003
 }

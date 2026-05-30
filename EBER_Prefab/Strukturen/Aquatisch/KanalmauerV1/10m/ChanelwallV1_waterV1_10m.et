@@ -1,0 +1,45 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{972C67A77449026D}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Kanal1_waterV1_10m.xob"
+  }
+ }
+ {
+  GenericEntity : "{3644AAEEA021AF13}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_hatchet01.et" {
+   ID "697901C470F965B4"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     AngleRange -108
+    }
+    ActionsManagerComponent "{F32B667C3C823800}" {
+     ActionContexts {
+      UserActionContext "{50888D37F529F720}" {
+       Position PointInfo "{50888D37F0EB77E0}" {
+        Offset -1.3168 0.7661 0
+       }
+      }
+     }
+    }
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_door01"
+    }
+   }
+   coords -1.295 5.291 4.288
+   angles -90 180 -180
+  }
+  GenericEntity : "{81A540D335ED5E2A}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_door01.et" {
+   ID "697901FE9B5AF242"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     AngleRange -95
+    }
+   }
+   coords 4.248 0.85 -2.341
+  }
+  GenericEntity : "{8CB7F971CCBAB365}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_ladder01.et" {
+   ID "697AA0677ABCB2E1"
+   coords 1.376 0.704 2.887
+  }
+ }
+}

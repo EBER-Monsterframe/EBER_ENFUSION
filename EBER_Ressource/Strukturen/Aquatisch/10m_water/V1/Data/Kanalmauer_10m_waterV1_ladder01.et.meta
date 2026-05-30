@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8CB7F971CCBAB365}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Data/Kanalmauer_10m_waterV1_ladder01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,54 @@
+GenericEntity : "{4597EA9A4675EED1}Prefabs/Structures/Core/Ladder_Base.et" {
+ ID "50D6C55BB04A2F5B"
+ components {
+  LadderComponent "{588EECC514BB6DFC}" {
+   BottomFrontPositionInfo LadderExitPointInfo TestOben {
+    PivotID "socket_ladder_entryPoint_01"
+    Offset 0 0 0
+    Angles 0 270 0
+    FinalTransform LadderExitPointInfo joinPosition {
+     PivotID "socket_ladder_joinPosition"
+    }
+   }
+   TopFrontPositionInfo LadderExitPointInfo TestUntten {
+    PivotID "socket_ladder_leavingPoint"
+    Offset -0.2426 1 0
+    FinalTransform LadderExitPointInfo exitPosition {
+     PivotID "socket_ladder_exitPosition"
+     Offset 0 0.6 0.0638
+    }
+   }
+   EntryThreshold 3
+   LadderStepLength 0.55
+   "Visible in editor" 1
+  }
+  MeshObject "{50D6C55BB04A2F5C}" {
+   Object "{E8396D6C813E1560}EBER_Ressource/Strukturen/Aquatisch/10m_water/V1/Kanal1_waterV1_ladder01_10m.xob"
+  }
+  ActionsManagerComponent "{5916A63C9331DAB0}" {
+   ActionContexts {
+    UserActionContext "{5916A63C9D2ABA4A}" {
+     Position PointInfo "{5916A63C9B51DDAE}" {
+      PivotID "socket_ladder_leavingPoint"
+      Offset 0 0.5603 0.1
+     }
+     Radius 2
+    }
+    UserActionContext "{5916A63C9CED0D8A}" {
+     Position PointInfo "{5916A63CE468E545}" {
+      PivotID "socket_ladder_entryPoint_01"
+      Offset 0.167 -0.3451 0.0278
+     }
+     Radius 1.5
+     Omnidirectional 1
+     VisibilityAngle 12.85
+    }
+   }
+   additionalActions {
+    SCR_LadderUserAction "{5916A63CE01A4A0F}" {
+     VisibilityRange 0.001
+    }
+   }
+  }
+ }
+}
